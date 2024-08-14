@@ -597,3 +597,67 @@ hr {
 
 
 /* footer section style ends here */
+
+
+
+/* Achivement section style starts here */
+
+.achivment-image
+{
+    width: 246px;
+    height: 250px;
+
+}
+.achivement-img-container
+{
+
+    width: 49%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    height: 520px;
+    border-radius: 10px;
+    background-color: #1c1919;
+    padding: 5px;
+
+}
+.achivment-image>img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ 
+}
+.Achivement
+{
+    height: 550px;
+    width: 73%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.achivement-text
+{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Achivement
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(34, 34, 34);
+    border-radius: 25px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+#halka-boro-btn
+{
+    width: 250px;
+}
