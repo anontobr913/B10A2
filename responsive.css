@@ -106,5 +106,19 @@
     justify-content: center;
     gap: 10px;
 }
+.run
+{
+    width: 92%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px;
+}
+.run-text-container
+{
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
 
 }

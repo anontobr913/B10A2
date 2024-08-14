@@ -11,12 +11,9 @@
 body
 {
     width: 100%;
-    border: 2px solid red;
-    height: 100%;
+    
 }
-main{
-    background-color: #000000;
-}
+
 
 /* shared style */
 .small-text
@@ -25,7 +22,7 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
-.mediumn-text
+.medium-text
 {
     font-size: 48px;
     font-weight: 900;  
@@ -35,10 +32,12 @@ main{
 {
     border-radius: 40px;
     background-color: rgb(230, 83, 60);
-    margin-left: 20px;
     padding: 16px 40px;
     color: #FFFFFF;
+    border: none;
+    width: 200px;
 }
+
 
 
 /* banner section style starts here */
@@ -106,7 +105,16 @@ main{
 
 
 /* stay healthy section style starts here */
+header
+{  margin: 0; 
+    
+}
 
+main{
+    background-color: #000000;
+    margin: 0;      
+    padding: 0;
+}
 .stay-healthy
 {
     display: flex;
@@ -188,6 +196,7 @@ main{
     margin-left: 20px;
     padding: 16px 40px;
     color: #FFFFFF;
+    width: 200px;
 }
 
 .videos-card
@@ -234,9 +243,11 @@ main{
 {
     width: 73%;
     margin: 0 auto;
+    border: 1px solid black;
     background-color: #000000;
-    border: 2px solid black;
-    
+    margin-bottom: 100px;
+    /* margin-bottom: 50px; */ 
+     /* for phone */
 }
 .habit-text
 {
@@ -259,7 +270,6 @@ main{
     height: 300px;
     color: white;
     display: flex;
-
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -280,5 +290,47 @@ main{
     border: 2px solid rgba(128, 128, 128, 0.64);
     object-fit: cover;
 }
+/* habit ends style  here */
 
-/* habit ends style starts here */
+
+/* run section style starts here  */
+.run
+{
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color:rgb(34, 34, 34);
+    width: 73%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.run-img-container
+{
+    width: 360px;
+    height: 310px;
+    
+}
+
+.run-img-container img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 65% 28%;
+    
+}
+
+.run-text-container
+{
+    width: 40%;
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+/* run section style ends here  */
