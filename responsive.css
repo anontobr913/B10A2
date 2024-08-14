@@ -1,0 +1,95 @@
+@media screen  and (max-width:576px) 
+{
+    .stay-healthy-content
+{
+    width: 92%;
+    border: 0 auto;
+    object-fit: cover;
+    border: 1px solid red;
+    
+
+}
+.stay-healthy
+{
+    flex-direction: column;
+}
+.stay-healthy-img-container
+{
+    width: 92%;
+    border: 0 auto;
+    
+}
+.primary-btn
+{
+    border-radius: 30px;
+    background-color: rgb(230, 83, 60);
+    padding: 15px 22px;
+    color: #FFFFFF;
+    margin-left: 0;
+}
+
+.stay-healthy-content>h1{
+    font-size: 3rem;
+    font-weight: 750; 
+    line-height: 50px;
+
+}
+.miama
+{
+    font-size: 6rem;                                       
+}
+.nav-menu
+{
+    display: none;
+}
+.stay-healthy-btn
+{
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.humburger
+{
+    display: block;
+    font-size: 30px;
+
+}
+.navbar
+{
+    width: 92%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.videos-card
+{
+
+    height: 70px;
+    width: 150px;
+    bottom: 6%;
+    left: 55%;  
+}
+.videos-card>div
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.tutorial-card
+{
+    width: 150px;
+    height: 70px; 
+    bottom: -30%;
+    left: 10%; 
+}
+.play-icon
+{
+    display: block;
+    position: absolute;
+    left: 18%;
+}
+
+}

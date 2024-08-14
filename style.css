@@ -1,0 +1,220 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;                                     
+}
+
+
+body
+{
+    width: 100%;
+    border: 2px solid red;
+    height: 100vh;
+}
+
+/* shared style */
+.small-text
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.primary-btn
+{
+    border-radius: 40px;
+    background-color: rgb(230, 83, 60);
+    margin-left: 20px;
+    padding: 16px 40px;
+    color: #FFFFFF;
+}
+
+
+/* banner section style starts here */
+
+
+/* navbar section style starts here */
+.banner
+{
+    background-image: linear-gradient(to bottom, #000000,#232222, #000000);
+}
+.navbar
+{
+    padding-top: 57px;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.nav-menu
+{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}
+.humburger
+{
+    display: none;
+
+}
+.home-btn
+{
+  
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 46px;
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    color:#FFFFFF;
+    border: none;
+    margin: 5px;
+}
+
+.about
+{
+    margin-right: 20px;
+}
+.fitness-text
+{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* navbar section style ends here */
+
+
+/* stay healthy section style starts here */
+
+.stay-healthy
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.stay-healthy-content
+{
+    width: 36%;
+  
+}
+.stay-healthy-content>h1,.stay-healthy-content>p
+{
+    margin-bottom: 20px;
+}
+.stay-healthy-img-container
+{
+    width: 25%;
+    height: 580px;
+    position: relative;
+    
+}
+.stay-healthy-img-container img
+{
+    width: 100%;
+    height: 100%;
+}
+.stay-healthy-content>h1{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 700; 
+    line-height: 70px;
+
+}
+.miama
+{
+    font-family: 'Miama', sans-serif;
+    font-size: 8rem;
+    font-weight: 400; 
+    color: #FFFFFF;                                         
+}
+.stay-healthy-content>p
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.stay-healthy-btn
+{
+    display: flex;
+}
+
+
+.tutorial-card
+{
+    width: 206px;
+    height: 96px; 
+    /* 150px 170px */
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 5%;
+    left: 56%;
+    /* for phone */
+}
+.btn-two
+{
+    border-radius: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    padding: 16px 40px;
+    color: #FFFFFF;
+}
+
+.videos-card
+{
+    color: #FFFFFF;
+    height: 85px;
+    width: 190px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 45%;
+    left: 80%;  
+}
+.videos-card>div
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.small-card-text
+{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+.circle-icon
+{
+    font-size: 30px;
+    position: relative;
+}
+.play-icon
+{
+    
+    display: none;
+}
+
+/* stay healthy section style ends here */
