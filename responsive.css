@@ -183,5 +183,64 @@
     width: 350px;
     margin: 0 auto;
 }
+.team-img-container
+{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+.team-text
+{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+#info-1
+{
+    bottom:77%;
+    left:24%;
+    position: absolute;
+   
+}
+#info-2
+{
+    bottom:62%;
+    left:24%;
+    position: absolute;
+   
+   
+}
 
+#info-3
+{
+    bottom:47%;
+    left:24%;
+    position: absolute;
+
+   
+}
+
+#info-4
+{
+    bottom:32%;
+    left:24%;
+    position: absolute;
+    
+}
+
+
+#info-5
+{
+    bottom:17%;
+    left:24%;
+    position: absolute;
+   
+}
+#info-6
+{
+    bottom:2%;
+    left:24%;
+    position: absolute;
+    border: 2px solid red;
+   
+}
 }
