@@ -55,6 +55,8 @@ body
 
 
 
+
+
 /* banner section style starts here */
 
 
@@ -110,12 +112,19 @@ body
 .fitness-text
 {
     color: rgb(230, 83, 60);
-    font-family: Inter;
     font-size: 36px;
     font-weight: 800;
     font-style: italic;
 }
 
+.fitness-bold
+{   color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
 /* navbar section style ends here */
 
 
@@ -543,3 +552,48 @@ th, td {
 }
 
 /* Team Section style ends here  */
+
+/* footer section style starts here */
+.footer-main{
+    background-color:#1a1818 ;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.footer-text
+{
+    width: 73%;
+    /* for mobile */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    
+}
+.Get-Started
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+hr {
+    border: none; 
+    height: 2px; 
+    background-color:rgb(75, 73, 73); /* Set the color */
+    width: 70%; 
+    margin: 0 auto;
+    
+}
+
+
+/* footer section style ends here */

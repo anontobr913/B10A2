@@ -241,6 +241,22 @@
     left:24%;
     position: absolute;
     border: 2px solid red;
-   
 }
+.footer-main
+{
+    height:830px;
+}
+.footer-text
+{
+    width: 92%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px;
+    height: 700px;
+}
+.footer-content
+{
+    height: 750px;
+}
+
 }
