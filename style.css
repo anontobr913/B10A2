@@ -12,7 +12,10 @@ body
 {
     width: 100%;
     border: 2px solid red;
-    height: 100vh;
+    height: 100%;
+}
+main{
+    background-color: #000000;
 }
 
 /* shared style */
@@ -21,6 +24,12 @@ body
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
+}
+.mediumn-text
+{
+    font-size: 48px;
+    font-weight: 900;  
+    color: #FFFFFF; 
 }
 .primary-btn
 {
@@ -157,7 +166,6 @@ body
 {
     width: 206px;
     height: 96px; 
-    /* 150px 170px */
     color: white;
     display: flex;
     text-align: center;
@@ -171,7 +179,7 @@ body
     position: absolute;
     bottom: 5%;
     left: 56%;
-    /* for phone */
+
 }
 .btn-two
 {
@@ -218,3 +226,59 @@ body
 }
 
 /* stay healthy section style ends here */
+
+
+/* habit section style starts here */
+
+.habit
+{
+    width: 73%;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 2px solid black;
+    
+}
+.habit-text
+{
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.habit-content-container
+{
+    width: 100%;
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.habit-content
+{
+    height: 300px;
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.habit-image-container
+{
+    height: 180px;
+    width: 180px;
+}
+.habit-image-container img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.64);
+    object-fit: cover;
+}
+
+/* habit ends style starts here */

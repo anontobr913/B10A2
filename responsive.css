@@ -5,7 +5,6 @@
     width: 92%;
     border: 0 auto;
     object-fit: cover;
-    border: 1px solid red;
     
 
 }
@@ -90,6 +89,22 @@
     display: block;
     position: absolute;
     left: 18%;
+}
+
+.habit-content-container
+{
+    grid-template-columns: repeat(1,1fr);
+
+}
+.habit
+{
+    width: 92%;
+    margin: 0 auto;
+}
+.habit-content
+{
+    justify-content: center;
+    gap: 10px;
 }
 
 }
